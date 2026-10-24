@@ -12,7 +12,6 @@
 
 <p align="center">
   <!-- readme:buttons -->
-  <a href="https://harn.miposts.com"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/cta-live.dark.png"><img src="docs/readme/cta-live.light.png" alt="Open live demo" width="182" height="44"></picture></a>
   <a href="#run-locally"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/cta-run.dark.png"><img src="docs/readme/cta-run.light.png" alt="Run locally" width="147" height="44"></picture></a>
   <a href="docs/MANDATE_VERIFICATION.md"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/cta-docs.dark.png"><img src="docs/readme/cta-docs.light.png" alt="Verification report" width="203" height="44"></picture></a>
   <!-- /readme:buttons -->
@@ -55,7 +54,7 @@
 <p align="center">
   <img src="docs/assets/mandate-approval-dashboard.png" alt="Operator dashboard: a pending decision card with symbol, quantity, limit price, rationale and the list of passed guard checks, next to equity, exposure and mandate headroom" width="880">
   <br>
-  <sub>Public safety rehearsal: the agent proposes one order, the card lists every guard check that passed before approval.</sub>
+  <sub>Operator dashboard: the agent proposes one order, the card lists every guard check that passed before approval.</sub>
 </p>
 
 > **The model never holds a trading endpoint.** Orders exist only as calls to the Mandate Guard, which
@@ -128,13 +127,13 @@ idempotent: an unchanged retry is deduplicated, a mutated one is rejected.
 
 ## Try it in two minutes
 
-Open the [public rehearsal](https://harn.miposts.com) and sign in as `demo` / `MandateDemo2026`. The
-shared profile is isolated: no production account values, secrets or trajectory controls.
+After [running locally](#run-locally), open the operator UI at http://localhost:8790 with your Alpaca
+paper account connected.
 
 | | What to do | What you see |
 |---|---|---|
 | 1 | Open the pending decision card | Symbol, size, limit price, the rationale and every guard check that passed |
-| 2 | Approve the rehearsal order | The completed card moves into the journal, positions and exposure update |
+| 2 | Approve the proposed paper order | The completed card moves into the journal, positions and exposure update |
 | 3 | Deny the next proposal | Nothing reaches the broker, the journal records the denial |
 
 How the dashboard, the news view and chat as the control plane work is described in the
