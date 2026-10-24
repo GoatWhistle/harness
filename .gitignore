@@ -22,3 +22,5 @@ dist/
 *.png
 !mandate/app/public/*.png
 !docs/screens/*.png
+!docs/readme/*.png
+!docs/assets/*.png
