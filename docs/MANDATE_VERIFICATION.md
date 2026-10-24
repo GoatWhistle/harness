@@ -22,7 +22,6 @@ of a broker-side effect, and a model statement is not used as proof of a tool ca
 | Deterministic decision intelligence | Verified | `evaluate_trajectory` returns Decimal liquidity/session gates, strength-scaled ATR14 whole-share sizing capped by mandate headroom, SPY 20-bar regime/risk-off gross scaling, a five-strategy adaptive ensemble and fee-plus-2-bps-slippage chronological holdout evidence. Train-only selection cannot see modified holdout prices. Research suite: 56 passing tests. |
 | Outcome feedback loop | Verified | The runner aggregates only completed 60-minute outcomes from proposals with captured strategy directions into per-strategy and news-vs-price mean signed return/accuracy plus an evidence-shrunk bounded multiplier; the compact scorecard is supplied to the next prompt and rendered in the dashboard. PARK-only history is deliberately excluded from adaptive weights. |
 | Monitoring control plane | Verified | Browser E2E verified realtime status, quality/discovery telemetry and the separate Review → Confirm gate. Backend tests reject unconfirmed writes and symbols outside the mandate universe. |
-| Qodo review of implementation head | Verified | PR #2 Qodo deep review points to implementation commit `0a47785` and reports Bugs 0, Rule violations 0 and Skill insights 0. |
 
 ## Repeatable commands
 

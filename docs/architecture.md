@@ -97,9 +97,3 @@ Equity, P&L, exposure, positions, orders, news, agent decisions and mandate head
 ### Chat as the control plane
 
 The agent keeps working outside chat. Chat remains available to explain a decision, inspect evidence, adjust the thesis, narrow the symbol pool, or propose a cadence/risk-posture change. Persistent trajectory changes require explicit confirmation and cannot expand the hard mandate universe.
-
-## Qodo review discipline
-
-Qodo Code Review was installed before the first product code. Milestones M1–M12 were reviewed through PRs [#1](https://github.com/GoatWhistle/harness-hack/pull/1) and [#2](https://github.com/GoatWhistle/harness-hack/pull/2). Findings included pending-exposure undercounting, concurrent submissions, mandate bypass on close, retry provenance and point-in-time news errors; each was fixed with a regression test. Recorded repeat reviews report **0 bugs and 0 rule violations** for the reviewed milestone commits.
-
-The full, commit-linked history and project-specific review rules are in the [Qodo review log](QODO_REVIEW_LOG.md). New commits are not represented as Qodo-reviewed until their review is added to that log.

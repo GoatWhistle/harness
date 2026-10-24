@@ -234,7 +234,6 @@ mandate/
 | [Architecture](docs/architecture.md) | Trust zones, strategies and news scoring, safety invariants, the TrueForge harness, product experience |
 | [Example mandate](mandate/mandates/example.yaml) | The human-authored policy the guard executes |
 | [Verification report](docs/MANDATE_VERIFICATION.md) | Every requirement with its status and authoritative evidence |
-| [Qodo review log](docs/QODO_REVIEW_LOG.md) | Commit-linked code review history and project rules |
 
 ## Limitations
 
