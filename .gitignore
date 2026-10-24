@@ -15,8 +15,6 @@ dist/
 
 # local design scratch
 .scratch/
-.playwright-mcp/
-.impeccable/
 
 # scratch screenshots never enter the repo; documentation ones do
 *.png
