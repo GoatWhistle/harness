@@ -247,5 +247,5 @@ mandate/
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/mark.dark.png"><img src="docs/readme/mark.light.png" alt="" width="48" height="30"></picture>
   <br>
-  <sub>Team Ullax, The Agent Harness Hackathon by WeMakeDevs, 2026. Licensed under <a href="LICENSE">MIT</a>.</sub>
+  <sub>Team GoatWhistle, The Agent Harness Hackathon by WeMakeDevs, 2026. Licensed under <a href="LICENSE">MIT</a>.</sub>
 </p>
